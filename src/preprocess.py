@@ -9,3 +9,4 @@ def normalize(values):
     if minimum == maximum:
         return np.zeros_like(arr)
     return (arr - minimum) / (maximum - minimum)
+    
