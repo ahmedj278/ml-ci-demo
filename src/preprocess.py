@@ -1,5 +1,4 @@
 import numpy as np
-import os
 def normalize(values):
     """Min-max normalize a 1D list/array into the range [0, 1]."""
     arr = np.asarray(values, dtype=float)
